@@ -15,7 +15,7 @@ const Index = () => {
       <ProjectsSection />
       <ContactSection />
       <footer className="py-8 px-6 border-t border-border text-center text-sm text-muted-foreground">
-        © 2026 Minh Nguyen. Tất cả quyền được bảo lưu.
+        © 2026 Vinh Bao Dang Khoa. Tất cả quyền được bảo lưu.
       </footer>
     </div>
   );
