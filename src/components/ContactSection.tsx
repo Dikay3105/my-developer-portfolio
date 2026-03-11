@@ -15,13 +15,13 @@ const ContactSection = () => {
           transition={{ duration: 0.6 }}
         >
           <span className="text-sm font-medium tracking-[0.3em] uppercase text-primary mb-4 block">
-            Liên hệ
+            Contact
           </span>
           <h2 className="text-4xl sm:text-5xl font-bold mb-6">
-            Hãy <span className="text-gradient">kết nối</span> với tôi
+            Let's <span className="text-gradient">connect</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-xl mx-auto mb-12">
-            Bạn có dự án thú vị hoặc cơ hội hợp tác? Đừng ngần ngại liên hệ!
+            Have an exciting project or collaboration opportunity? Don't hesitate to reach out!
           </p>
         </motion.div>
 

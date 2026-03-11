@@ -5,7 +5,7 @@ const skills = [
   { category: "Frontend", items: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Vue.js"] },
   { category: "Backend", items: ["Node.js", "Python", "Go", "PostgreSQL", "Redis"] },
   { category: "DevOps", items: ["Docker", "AWS", "CI/CD", "Kubernetes", "Terraform"] },
-  { category: "Khác", items: ["Git", "Agile/Scrum", "System Design", "REST/GraphQL", "Testing"] },
+  { category: "Other", items: ["Git", "Agile/Scrum", "System Design", "REST/GraphQL", "Testing"] },
 ];
 
 const SkillsSection = () => {
@@ -22,9 +22,9 @@ const SkillsSection = () => {
           className="mb-16"
         >
           <span className="text-sm font-medium tracking-[0.3em] uppercase text-primary mb-4 block">
-            Kỹ năng
+            Skills
           </span>
-          <h2 className="text-4xl sm:text-5xl font-bold">Công nghệ & Công cụ</h2>
+          <h2 className="text-4xl sm:text-5xl font-bold">Technologies & Tools</h2>
         </motion.div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
