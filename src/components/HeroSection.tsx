@@ -28,9 +28,9 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.15 }}
           className="text-5xl sm:text-7xl lg:text-8xl font-bold leading-[0.95] tracking-tight mb-8"
         >
-          Xin chào, tôi là
+          Hi, I'm
           <br />
-          <span className="text-gradient">Minh Nguyen</span>
+          <span className="text-gradient">Vinh Bao Dang Khoa</span>
         </motion.h1>
 
         <motion.p
@@ -39,8 +39,8 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="text-lg sm:text-xl text-muted-foreground max-w-xl leading-relaxed mb-12"
         >
-          Tôi xây dựng những trải nghiệm web hiện đại, hiệu suất cao và tập trung vào người dùng.
-          Chuyên về React, TypeScript & hệ thống phân tán.
+          I build modern, high-performance, user-focused web experiences.
+          Specializing in React, TypeScript & distributed systems.
         </motion.p>
 
         <motion.div
@@ -50,14 +50,14 @@ const HeroSection = () => {
           className="flex gap-4"
         >
           <a href="#projects" className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium hover:opacity-90 transition-opacity">
-            Xem dự án
+            View Projects
           </a>
           <a href="/cv.pdf" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 border border-primary/50 bg-primary/10 px-6 py-3 rounded-lg font-medium text-primary hover:bg-primary/20 transition-colors">
             <FileText className="w-4 h-4" />
-            Xem CV
+            View CV
           </a>
           <a href="#contact" className="inline-flex items-center gap-2 border border-border px-6 py-3 rounded-lg font-medium text-foreground hover:bg-secondary transition-colors">
-            Liên hệ
+            Contact Me
           </a>
         </motion.div>
       </div>

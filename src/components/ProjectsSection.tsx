@@ -5,19 +5,19 @@ import { ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     title: "E-Commerce Platform",
-    description: "Nền tảng thương mại điện tử full-stack với thanh toán real-time, quản lý kho hàng và dashboard phân tích.",
+    description: "Full-stack e-commerce platform with real-time payments, inventory management, and analytics dashboard.",
     tech: ["React", "Node.js", "PostgreSQL", "Stripe"],
     color: "from-amber-500/20 to-orange-600/20",
   },
   {
     title: "Task Management App",
-    description: "Ứng dụng quản lý công việc với drag-and-drop, real-time collaboration và thông báo thông minh.",
+    description: "Task management app with drag-and-drop, real-time collaboration, and smart notifications.",
     tech: ["Next.js", "TypeScript", "Prisma", "WebSocket"],
     color: "from-blue-500/20 to-cyan-500/20",
   },
   {
     title: "AI Chat Assistant",
-    description: "Trợ lý AI thông minh với khả năng xử lý ngôn ngữ tự nhiên, hỗ trợ đa ngôn ngữ và tích hợp API.",
+    description: "Intelligent AI assistant with natural language processing, multi-language support, and API integration.",
     tech: ["Python", "FastAPI", "OpenAI", "React"],
     color: "from-emerald-500/20 to-teal-500/20",
   },
@@ -37,9 +37,9 @@ const ProjectsSection = () => {
           className="mb-16"
         >
           <span className="text-sm font-medium tracking-[0.3em] uppercase text-primary mb-4 block">
-            Dự án
+            Projects
           </span>
-          <h2 className="text-4xl sm:text-5xl font-bold">Dự án nổi bật</h2>
+          <h2 className="text-4xl sm:text-5xl font-bold">Featured Projects</h2>
         </motion.div>
 
         <div className="space-y-8">

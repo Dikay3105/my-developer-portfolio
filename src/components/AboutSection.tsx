@@ -15,20 +15,20 @@ const AboutSection = () => {
           transition={{ duration: 0.7 }}
         >
           <span className="text-sm font-medium tracking-[0.3em] uppercase text-primary mb-4 block">
-            Về tôi
+            About Me
           </span>
           <h2 className="text-4xl sm:text-5xl font-bold mb-6 leading-tight">
-            Đam mê tạo ra <br />
-            <span className="text-gradient">giải pháp số</span>
+            Passionate about <br />
+            <span className="text-gradient">digital solutions</span>
           </h2>
           <div className="space-y-4 text-muted-foreground leading-relaxed">
             <p>
-              Với hơn 5 năm kinh nghiệm phát triển phần mềm, tôi chuyên xây dựng các ứng dụng web 
-              hiện đại với công nghệ tiên tiến nhất.
+              With over 5 years of software development experience, I specialize in building modern 
+              web applications with cutting-edge technology.
             </p>
             <p>
-              Tôi tin rằng code tốt không chỉ hoạt động — nó phải dễ đọc, dễ bảo trì và mang lại 
-              trải nghiệm tuyệt vời cho người dùng cuối.
+              I believe great code doesn't just work — it should be readable, maintainable, and deliver 
+              an outstanding experience for end users.
             </p>
           </div>
         </motion.div>
@@ -40,10 +40,10 @@ const AboutSection = () => {
           className="grid grid-cols-2 gap-4"
         >
           {[
-            { number: "5+", label: "Năm kinh nghiệm" },
-            { number: "30+", label: "Dự án hoàn thành" },
-            { number: "10+", label: "Công nghệ thành thạo" },
-            { number: "99%", label: "Khách hàng hài lòng" },
+            { number: "5+", label: "Years Experience" },
+            { number: "30+", label: "Projects Completed" },
+            { number: "10+", label: "Technologies Mastered" },
+            { number: "99%", label: "Client Satisfaction" },
           ].map((stat, i) => (
             <motion.div
               key={stat.label}

@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
 
 const links = [
-  { label: "Về tôi", href: "#about" },
-  { label: "Kỹ năng", href: "#skills" },
-  { label: "Dự án", href: "#projects" },
-  { label: "Liên hệ", href: "#contact" },
+  { label: "About", href: "#about" },
+  { label: "Skills", href: "#skills" },
+  { label: "Projects", href: "#projects" },
+  { label: "Contact", href: "#contact" },
 ];
 
 const Navbar = () => {
