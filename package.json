@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://dikay3105.github.io/portfolio",
+  "homepage": "https://dikay3105.github.io/my-developer-portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
