@@ -31,9 +31,9 @@ const ContactSection = () => {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-12"
         >
-          <a href="mailto:hello@minhnguyen.dev" className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors">
+          <a href="mailto:dikay3105@gmail.com" className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors">
             <Mail className="w-5 h-5 text-primary" />
-            hello@minhnguyen.dev
+            dikay3105@gmail.com
           </a>
           <span className="hidden sm:block text-border">|</span>
           <span className="flex items-center gap-3 text-muted-foreground">
@@ -49,8 +49,8 @@ const ContactSection = () => {
           className="flex justify-center gap-4"
         >
           {[
-            { icon: Github, href: "#", label: "GitHub" },
-            { icon: Linkedin, href: "#", label: "LinkedIn" },
+            { icon: Github, href: "https://github.com/Dikay3105", label: "GitHub" },
+            { icon: Linkedin, href: "https://www.linkedin.com/in/vinh-khoa/", label: "LinkedIn" },
           ].map(({ icon: Icon, href, label }) => (
             <a
               key={label}
