@@ -52,7 +52,7 @@ const HeroSection = () => {
           <a href="#projects" className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium hover:opacity-90 transition-opacity">
             View Projects
           </a>
-          <a href="/cv.pdf" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 border border-primary/50 bg-primary/10 px-6 py-3 rounded-lg font-medium text-primary hover:bg-primary/20 transition-colors">
+          <a href="/my-developer-portfolio/cv.pdf" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 border border-primary/50 bg-primary/10 px-6 py-3 rounded-lg font-medium text-primary hover:bg-primary/20 transition-colors">
             <FileText className="w-4 h-4" />
             View CV
           </a>
