@@ -4,22 +4,36 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "Full-stack e-commerce platform with real-time payments, inventory management, and analytics dashboard.",
-    tech: ["React", "Node.js", "PostgreSQL", "Stripe"],
+    title: "Web Application for TOEIC Exam",
+    period: "Sep 2024 - Jan 2025",
+    description:
+      "A full-stack web app for TOEIC exam preparation and course sales using .NET, React.js, and Microservices architecture.",
+    features: [
+      "Managed CRUD operations for users, staff, exams, and courses with robust role-based access controls.",
+      "Integrated JWT for secure user authentication and profile management.",
+      "Allowed users to select specific TOEIC test parts or complete tests based on their preferences.",
+      "Generated detailed performance and sales statistics to enhance user engagement.",
+    ],
+    tech: [".NET", "React.js", "Bootstrap", "MySQL", "Microservices"],
+    github: "https://github.com/ankoa/toeicWebFE",
+    demo: "",
     color: "from-amber-500/20 to-orange-600/20",
   },
   {
-    title: "Task Management App",
-    description: "Task management app with drag-and-drop, real-time collaboration, and smart notifications.",
-    tech: ["Next.js", "TypeScript", "Prisma", "WebSocket"],
+    title: "Holland Career Orientation Web App",
+    period: "Sep 2025 - Nov 2025",
+    description:
+      "Developing a test web app to help students choose suitable majors and exam subject groups.",
+    features: [
+      "Implemented Holland six-type personality survey with dynamic question flow and automatic scoring algorithm.",
+      "Suggested majors, job roles, recommended university entrance exam subject groups and gave advice using AI.",
+      "Built analytics dashboards for admins to view test distribution, career interest trends and data export for reporting.",
+      "Deployed the platform for real users, reaching 1400+ active test-takers within 4 months.",
+    ],
+    tech: ["Node.js", "React.js", "MongoDB", "REST API", "Tailwind CSS"],
+    github: "",
+    demo: "https://pathfinder-holland.onrender.com",
     color: "from-blue-500/20 to-cyan-500/20",
-  },
-  {
-    title: "AI Chat Assistant",
-    description: "Intelligent AI assistant with natural language processing, multi-language support, and API integration.",
-    tech: ["Python", "FastAPI", "OpenAI", "React"],
-    color: "from-emerald-500/20 to-teal-500/20",
   },
 ];
 
