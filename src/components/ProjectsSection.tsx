@@ -67,16 +67,35 @@ const ProjectsSection = () => {
             >
               <div className={`absolute inset-0 bg-gradient-to-br ${project.color} opacity-0 group-hover:opacity-100 transition-opacity duration-500`} />
               <div className="relative z-10">
-                <div className="flex items-start justify-between mb-4">
-                  <h3 className="text-2xl font-bold">{project.title}</h3>
+                <div className="flex items-start justify-between gap-4 mb-2 flex-wrap">
+                  <div>
+                    <h3 className="text-2xl font-bold">{project.title}</h3>
+                    <span className="text-xs text-muted-foreground">{project.period}</span>
+                  </div>
                   <div className="flex gap-3 text-muted-foreground">
-                    <Github className="w-5 h-5 hover:text-foreground cursor-pointer transition-colors" />
-                    <ExternalLink className="w-5 h-5 hover:text-foreground cursor-pointer transition-colors" />
+                    {project.github && (
+                      <a href={project.github} target="_blank" rel="noopener noreferrer" aria-label={`${project.title} GitHub`}>
+                        <Github className="w-5 h-5 hover:text-foreground cursor-pointer transition-colors" />
+                      </a>
+                    )}
+                    {project.demo && (
+                      <a href={project.demo} target="_blank" rel="noopener noreferrer" aria-label={`${project.title} live demo`}>
+                        <ExternalLink className="w-5 h-5 hover:text-foreground cursor-pointer transition-colors" />
+                      </a>
+                    )}
                   </div>
                 </div>
-                <p className="text-muted-foreground mb-6 max-w-2xl leading-relaxed">
+                <p className="text-muted-foreground mb-4 max-w-2xl leading-relaxed italic">
                   {project.description}
                 </p>
+                <ul className="space-y-2 mb-6 max-w-2xl">
+                  {project.features.map((f) => (
+                    <li key={f} className="flex gap-3 text-sm text-muted-foreground leading-relaxed">
+                      <span className="w-1.5 h-1.5 rounded-full bg-primary shrink-0 mt-2" />
+                      <span>{f}</span>
+                    </li>
+                  ))}
+                </ul>
                 <div className="flex flex-wrap gap-2">
                   {project.tech.map((t) => (
                     <span key={t} className="text-xs font-medium px-3 py-1 rounded-full bg-secondary text-secondary-foreground">
